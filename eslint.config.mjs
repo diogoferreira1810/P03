@@ -20,6 +20,14 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    rules: {
+      // Add your custom rules here
+      // Example:
+      // "no-console": "warn",
+      // "quotes": ["error", "single"],
+    }
+  },
 ];
 
 export default eslintConfig;
